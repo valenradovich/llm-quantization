@@ -11,5 +11,15 @@ the purpose of quantization is to use fewer bits (rescale values) to store these
 
 even though we try to minimize the degradation in model performance, we'll still have some because we are literally **losing mathematical precision** in our operations.
 
+## some tests
+<ins>gemma2-9b 1-bit quantized:</ins>
+
+![1-bit-chat](https://github.com/valenradovich/llm-quantization/assets/86897297/dc3b04a7-4ced-460f-81ef-e0dce9897af0)
+
+
+<ins>gemma2-9b 4-bit quantized:</ins>
+
+![4-bit-chat](https://github.com/valenradovich/llm-quantization/assets/86897297/e015949b-de40-47b3-a536-14c1e306f351)
+
 ## usage
 the notebook in the repo is ready-to-go using Google Colab.
